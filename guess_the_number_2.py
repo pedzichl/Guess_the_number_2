@@ -28,9 +28,8 @@ def guess_the_number():
     while user_choice != "you win":
         guess = int((max - min) // 2) + min
         counter += 1
-        if counter > 10:
-            print("Don't cheat!, we'll start over")
-            counter = 0
+        if counter > 11:
+            print("Don't cheat!, ")
         print(f"Your guess is: {guess}")
         user_choice = choices()
         if user_choice == "too small":
