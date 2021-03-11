@@ -18,7 +18,8 @@ def choices():
 
 
 def guess_the_number():
-    print("Guess the number between 1 and 1000 and I'll try to guess it in under 10 tries, unless you cheat!:)")
+    print("\nThink about the number between 1 and 1000 and I'll try to guess it in under 10 tries, unless you cheat!:)")
+    print("\nAvailable decisions are: too small, too big, you win")
     print("Press 'Enter to start")
     input()
     min = 0
